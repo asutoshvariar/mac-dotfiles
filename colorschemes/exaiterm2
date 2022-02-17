@@ -1,0 +1,38 @@
+# Export color variables (both old and new LSCOLORS)
+export CLICOLOR=1
+export LSCOLORS=ExFxBxDxCxgedabagacad
+export LS_COLORS=ExFxBxDxCxgedabagacad
+# Tab completion coloring
+zstyle ':completion:*' list-colors "${(@s.:.)LS_COLORS}"
+
+# ZSH completion initalization
+autoload -Uz compinit
+compinit
+
+# Options for history-based completion
+setopt SHARE_HISTORY
+HISTFILE=$HOME/.zhistory
+SAVEHIST=1000
+HISTSIZE=999
+setopt HIST_EXPIRE_DUPS_FIRST
+
+#Setting up the history-based completion arrow keys
+bindkey '\e[A' history-search-backward
+bindkey '\e[B' history-search-forward
+
+test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
+
+alias ls="exa --icons --git"
+alias la="exa --icons --git -a"
+alias vim="nvim"
+alias cat="bat"
+
+export PATH="/usr/local/opt/openjdk/bin:$PATH"
+export CPPFLAGS="-I/usr/local/opt/openjdk/include"
+
+export PATH="/usr/local/opt/openssl@3/bin:$PATH"
+export LDFLAGS="-L/usr/local/opt/openssl@3/lib"
+export CPPFLAGS="-I/usr/local/opt/openssl@3/include"
+export PKG_CONFIG_PATH="/usr/local/opt/openssl@3/lib/pkgconfig"
+
+source ~/.fsh/fast-syntax-highlighting.plugin.zsh

@@ -1,0 +1,1 @@
+{"title":"Caps Lock → Hyper Key (⌃⌥⇧⌘) (Caps Lock if alone)","rules":[{"description":"Right Shift → Hyper Key (⌃⌥⇧⌘) (Right Shift if alone)","manipulators":[{"from":{"key_code":"right_shift"},"to":[{"key_code":"left_shift","modifiers":["left_command","left_control","left_option"]}],"type":"basic"}]}]}

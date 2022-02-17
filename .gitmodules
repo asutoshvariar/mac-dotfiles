@@ -1,0 +1,60 @@
+[submodule "colorschemes/onedark"]
+	path = colorschemes/onedark
+	url = https://github.com/joshdick/onedark.vim
+[submodule "nvim/plugged/MatchTag"]
+	path = nvim/plugged/MatchTag
+	url = https://github.com/gregsexton/MatchTag
+[submodule "nvim/plugged/syntastic"]
+	path = nvim/plugged/syntastic
+	url = https://github.com/scrooloose/syntastic
+[submodule "nvim/plugged/indentline"]
+	path = nvim/plugged/indentline
+	url = https://github.com/yggdroot/indentline
+[submodule "nvim/plugged/nerdtree"]
+	path = nvim/plugged/nerdtree
+	url = https://github.com/scrooloose/nerdtree
+[submodule "nvim/plugged/vim-polyglot"]
+	path = nvim/plugged/vim-polyglot
+	url = https://github.com/sheerun/vim-polyglot
+[submodule "nvim/plugged/onedark.vim"]
+	path = nvim/plugged/onedark.vim
+	url = https://github.com/joshdick/onedark.vim
+[submodule "nvim/plugged/vim-startify"]
+	path = nvim/plugged/vim-startify
+	url = https://github.com/mhinz/vim-startify
+[submodule "nvim/plugged/nvim-web-devicons"]
+	path = nvim/plugged/nvim-web-devicons
+	url = https://github.com/kyazdani42/nvim-web-devicons
+[submodule "nvim/plugged/barbar.nvim"]
+	path = nvim/plugged/barbar.nvim
+	url = https://github.com/romgrk/barbar.nvim
+[submodule "nvim/plugged/symbols-outline.nvim"]
+	path = nvim/plugged/symbols-outline.nvim
+	url = https://github.com/simrat39/symbols-outline.nvim
+[submodule "nvim/plugged/vim-fugitive"]
+	path = nvim/plugged/vim-fugitive
+	url = https://github.com/tpope/vim-fugitive
+[submodule "nvim/plugged/lualine.nvim"]
+	path = nvim/plugged/lualine.nvim
+	url = https://github.com/nvim-lualine/lualine.nvim
+[submodule "nvim/plugged/plenary.nvim"]
+	path = nvim/plugged/plenary.nvim
+	url = https://github.com/nvim-lua/plenary.nvim
+[submodule "nvim/plugged/telescope.nvim"]
+	path = nvim/plugged/telescope.nvim
+	url = https://github.com/nvim-telescope/telescope.nvim
+[submodule "nvim/plugged/nvim-treesitter"]
+	path = nvim/plugged/nvim-treesitter
+	url = https://github.com/nvim-treesitter/nvim-treesitter
+[submodule "nvim/plugged/nvim-lspconfig"]
+	path = nvim/plugged/nvim-lspconfig
+	url = https://github.com/neovim/nvim-lspconfig
+[submodule "nvim/plugged/opener.nvim"]
+	path = nvim/plugged/opener.nvim
+	url = https://github.com/willthbill/opener.nvim
+[submodule "nvim/plugged/cmp-nvim-lsp"]
+	path = nvim/plugged/cmp-nvim-lsp
+	url = https://github.com/hrsh7th/cmp-nvim-lsp
+[submodule "nvim/plugged/nvim-lsp"]
+	path = nvim/plugged/nvim-lsp
+	url = https://github.com/hrsh7th/nvim-cmp
